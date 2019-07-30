@@ -1,7 +1,6 @@
 ## ==========================
 ## Example 1.1-2 on Page 14 
 ## --------------------------
-
 N = 50000 # sample size
 
 x = runif(N, min=-2, max=2)
@@ -16,7 +15,6 @@ sum(Inside) / N
 points( x[!Inside],y[!Inside], pch=".", col="red") 
 rect( -1,-1, 1, 1, border ="green4") 
 
-
 ## ==========================
 ## Example 1: Extra (Obtaining pi=3.14 using a circle)
 ## --------------------------
@@ -27,7 +25,6 @@ y = runif(N, min=-1, max=1)
 
 Inside = ( x^2 + y^2 < 1 )
 sum(Inside) / N * 4 
-
 
 # Cosmetics
 # plot(x, y, pch=".")
@@ -89,14 +86,7 @@ for ( i in 1:length(NN) ) {
 plot(NN, PI3, type="l", col="blue" )
 abline(h=3.14, col="red4")
 
-
 #----------
  plot(NN, PI,  type="l", col="blue" )
 lines(NN, PI3, type="l", col="red" )
 abline(h=3.14, col="black")
-
-
-
-
-
-

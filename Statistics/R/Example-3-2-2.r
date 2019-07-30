@@ -6,4 +6,3 @@
 
 # Note: R uses rate paramter instead of theta.
 qexp(1/2, rate=1/3)
-

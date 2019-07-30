@@ -1,7 +1,6 @@
 ## ==========================
 ## Example 6.1-3 on Page 238 
 ## --------------------------
-
 data = c(0.98, 0.92, 0.89, 0.90, 0.94, 0.99,
 0.86, 0.85, 1.06, 1.01, 1.03, 0.85, 0.95, 0.90, 1.03,
 0.87, 1.02, 0.88, 0.92, 0.88, 0.88, 0.90, 0.98, 0.96,
@@ -26,7 +25,6 @@ Breaks = c(0.835, 0.865, 0.895, 0.925, 0.955, 0.985, 1.015, 1.045, 1.075)
 hist(data, breaks=Breaks)  ## similar to the textbook (Example 6.1.3).
 
 hist(data, breaks=Breaks, prob=TRUE) ## the same as the textbook. 
-
 # ----------------------------------
 # Table 6.1-4
 table( cut(data, breaks=Breaks ) )

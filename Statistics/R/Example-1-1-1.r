@@ -11,7 +11,6 @@ M = 1:6
 E = sample(1:6, replace=TRUE)
 any(E == M)
 
-
 # Setup for computer simulation.
 N = 500
 f = numeric(N)
@@ -38,4 +37,3 @@ plot(1:N, f/(1:N))
 plot(f/(1:N), type="l", col="blue")
 plot(1:N, f/(1:N), type="l", col="blue", ylim=0:1)
 abline(h=1-(5/6)^6) 
-

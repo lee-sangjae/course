@@ -19,11 +19,8 @@ ppois(6, lambda=5)
 # Use the upper tail. 
 ppois(5, lambda=5, lower.tail=FALSE)
 
-
 # ----------------------------
 # P[ X = 6 ] 
 dpois(6, lambda=5)
 
 ppois(6, lambda=5) - ppois(5, lambda=5)
-
-

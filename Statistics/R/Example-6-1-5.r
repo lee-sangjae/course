@@ -1,7 +1,6 @@
 ## ==========================
 ## Example 6.1-5 on Page 241
 ## --------------------------
-
 data = c(
 30, 17, 65,  8, 38, 35,  4, 19,   7, 14, 12,  4,  5,  4,  2, 
  7,  5, 12, 50, 33, 10, 15,  2,  10,  1,  5, 30, 41, 21, 31, 
@@ -34,10 +33,7 @@ intervals = seq(0,108, by=9)
 hist(x, breaks=intervals, prob=TRUE)  # relative frequency 
 curve( (1/20)*exp(-x/20), 0, 108, add=TRUE, col="blue")
 
-
 # Figure 6.1-4 (b): CDF
 Fn = ecdf(x)
 plot(Fn)
 curve( 1- exp(-x/20), 0, 108, add=TRUE, col="red")
-
-

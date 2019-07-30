@@ -2,7 +2,6 @@
 ## Example 1.4-6 on Page 40
 ##  (Recall Example 1.1-1 on Page 13)
 ## --------------------------
-
 date(); now <- proc.time()  ##############
 
 # E = a set of outcomes
@@ -30,7 +29,6 @@ for ( n in 1:N ) {
 # =================
 (proc.time()-now)/3600;  #################
 
-
 # Print the results, 
 cbind(1:N, f, f/(1:N)) 
 
@@ -44,7 +42,6 @@ abline(h=1-(5/6)^6)
 
 #=========================
 # Very Advanced
-
 #-------------------------
 date(); now <- proc.time()  ##############
 N = 5000  # iteration 
@@ -61,5 +58,3 @@ f   = cumsum(TF2)
 
 plot(1:N, f/(1:N), type="l", col="blue", ylim=0:1)
 abline(h=1-(5/6)^6)
-
-

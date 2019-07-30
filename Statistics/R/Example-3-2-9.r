@@ -14,4 +14,3 @@
 # Using xgamma.
 # Unit time: hour 
 1 - pgamma(9.390/60, shape=18/2, scale=2/60) 
-

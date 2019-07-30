@@ -1,7 +1,6 @@
 ## ==========================
 ## Example 2.1-7 on Page 54 
 ## --------------------------
-
 out =  rep( 2:8, c(71,124,194,258,177,122,54) ) 
 
 table(out)
@@ -33,12 +32,10 @@ lines(x, pmf, type="h", col="red", lwd=10)
 obs = table(out)
 cbind(obs, obs/length(out), pmf)
 
-
 #===========================================
 # How is actually the textbook example made 
 #--------------------------------------------
 N = 1000   # We can also try N=100000
-
 
 x1 = sample(1:4, size=N, replace=TRUE) 
 x2 = sample(1:4, size=N, replace=TRUE)
@@ -52,7 +49,3 @@ x2 = runif(N)
 
 out = x1+x2 
 hist(out)
-
-
-
-

@@ -3,7 +3,6 @@
 ## See Figure 2.6-1
 ## --------------------------
 
-
 #================================
 # Let's make four plots into one.
 #--------------------------------
@@ -28,5 +27,3 @@ xx = 0:20
 pmf = dpois(xx, lambda=10.5)
 names(pmf) = xx
 barplot(pmf, col="white", ylab="f(x)")
-
-

@@ -4,7 +4,6 @@
 
 # Note: R uses lambda (rate) and theta (scale) as well
 #       alpha = shape
-
 alpha=2
 theta=2
 x = 5
@@ -17,5 +16,4 @@ ppois(alpha-1, lambda=x/theta)
 
 # Using chisquare 
 1 - pchisq(x, df=4) 
-
 
