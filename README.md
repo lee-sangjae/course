@@ -1,5 +1,5 @@
-# Course Materials by  [Chanseok Park](https://sites.google.com/view/appliedstat)
+# Course Materials by  [Chanseok Park](https://appliedstat.github.io)
 
-## Engineering Statistics:  [Course Web](https://sites.google.com/view/appliedstat/course/stat2)
+## Engineering Statistics:  [Course Web](https://appliedstat.github.io/teaching/)
 
 ---
